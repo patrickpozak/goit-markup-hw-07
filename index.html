@@ -62,23 +62,35 @@
 
     <main>
       <section class="main-section-container">
-        <div class="container main-section-content">
+        <div class="container main-section-container__content">
           <h1 class="header-primary">
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
-          <button data-modal-open class="order-button" type="button">
+          <button
+            data-modal-open
+            class="main-section-container__order-button"
+            type="button"
+          >
             Zamów usługę
           </button>
           <div data-modal class="backdrop is-hidden">
             <div class="modal">
-              <button data-modal-close class="modal-close-button" type="button">
-                <svg class="modal-close-button-icon" width="30px" height="30px">
+              <button
+                data-modal-close
+                class="modal__close-button"
+                type="button"
+              >
+                <svg
+                  class="modal__close-button-icon"
+                  width="30px"
+                  height="30px"
+                >
                   <use
                     href="./images/icons.svg#icon-close-black-18dp-2-1"
                   ></use>
                 </svg>
               </button>
-              <h3 class="modal-header-title">
+              <h3 class="modal__header-title">
                 Zostaw swoje dane w formularzu poniżej
               </h3>
               <form class="modal-form">
@@ -159,17 +171,17 @@
       <section class="middle-section-container section">
         <div class="container middle-section-content">
           <ul class="descriptions">
-            <li class="descriptions-item">
-              <svg class="middle-section-icon" width="270px" height="120px">
+            <li>
+              <svg class="description__icon" width="270px" height="120px">
                 <use href="./images/icons.svg#icon-antenna-1"></use>
               </svg>
               <h3 class="header-tertiary">LOREM IPSUM</h3>
-              <p class="text-container">
+              <p class="descriptions__text-container">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="descriptions-item">
+            <li>
               <svg class="middle-section-icon" width="270px" height="120px">
                 <use href="./images/icons.svg#icon-clock-1"></use>
               </svg>
@@ -179,7 +191,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="descriptions-item">
+            <li>
               <svg class="middle-section-icon" width="270px" height="120px">
                 <use href="./images/icons.svg#icon-diagram-1"></use>
               </svg>
@@ -189,7 +201,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="descriptions-item">
+            <li>
               <svg class="middle-section-icon" width="270px" height="120px">
                 <use href="./images/icons.svg#icon-astronaut-1"></use>
               </svg>
@@ -202,43 +214,43 @@
           </ul>
         </div>
 
-        <div class="photo-section">
+        <div>
           <div class="container">
             <h2 class="header-secondary">Czym się zajmujemy</h2>
             <div class="photo-content">
-              <figure class="photo-content-item">
+              <figure class="photo-content__item">
                 <img
                   src="images/programming.jpg"
                   width="370"
                   height="294"
                   alt="Somebody programming on a computer by tapping on a white keyboard"
                 />
-                <figcaption class="photo-content-item-overlay-container">
-                  <h4 class="photo-content-item-title">
+                <figcaption class="photo-content__item-overlay-container">
+                  <h4 class="photo-content__item-title">
                     Aplikacje komputerowe
                   </h4>
                 </figcaption>
               </figure>
-              <figure class="photo-content-item">
+              <figure class="photo-content__item">
                 <img
                   src="images/smartphones.jpg"
                   width="370"
                   height="294"
                   alt="Woman holding a phone in left hand, tapping mousepad by right hand, operating notebook"
                 />
-                <figcaption class="photo-content-item-overlay-container">
-                  <h4 class="photo-content-item-title">Aplikacje mobilne</h4>
+                <figcaption class="photo-content__item-overlay-container">
+                  <h4 class="photo-content__item-title">Aplikacje mobilne</h4>
                 </figcaption>
               </figure>
-              <figure class="photo-content-item">
+              <figure class="photo-content__item">
                 <img
                   src="images/tablets.jpg"
                   width="370"
                   height="294"
                   alt="Somebody holding a tablet and choosing color from the palette displaying on device"
                 />
-                <figcaption class="photo-content-item-overlay-container">
-                  <h4 class="photo-content-item-title">
+                <figcaption class="photo-content__item-overlay-container">
+                  <h4 class="photo-content__item-title">
                     Rozwiązania graficzne
                   </h4>
                 </figcaption>
@@ -258,34 +270,50 @@
                 height="260"
                 alt="Around 35 years old smiling man with short dark hair and short beard, wearing glasses and brown shirt"
               />
-              <figcaption class="job-name">
-                <h4 class="person-name">John Doe</h4>
+              <figcaption class="personality-box__job-name">
+                <h4 class="personality-box__person-name">John Doe</h4>
                 <span>Project Designer</span>
-                <ul class="pb-social-icons-list">
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                <ul class="personality-box__social-icons-list">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-linkedin-1"></use>
                       </svg>
                     </a>
@@ -301,34 +329,50 @@
                 height="260"
                 alt="Around 35 years old smiling blond hair woman wearing glasses and dark-navy jacket"
               />
-              <figcaption class="job-name">
-                <h4 class="person-name">John Doe</h4>
+              <figcaption class="personality-box__job-name">
+                <h4 class="personality-box__person-name">John Doe</h4>
                 <span>Frontend Developer</span>
-                <ul class="pb-social-icons-list">
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                <ul class="personality-box__social-icons-list">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-linkedin-1"></use>
                       </svg>
                     </a>
@@ -344,34 +388,50 @@
                 height="260"
                 alt="Around 35 years old smiling man with short brown hair, wearing light-blue shirt"
               />
-              <figcaption class="job-name">
-                <h4 class="person-name">John Doe</h4>
+              <figcaption class="personality-box__job-name">
+                <h4 class="personality-box__person-name">John Doe</h4>
                 <span>Marketing</span>
-                <ul class="pb-social-icons-list">
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                <ul class="personality-box__social-icons-list">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-linkedin-1"></use>
                       </svg>
                     </a>
@@ -387,34 +447,50 @@
                 height="260"
                 alt="Around 35 years old man with short dark hair and short beard, wearing black glasses and black t-shirt. Has a tatoos on a right hand"
               />
-              <figcaption class="job-name">
-                <h4 class="person-name">John Doe</h4>
+              <figcaption class="personality-box__job-name">
+                <h4 class="personality-box__person-name">John Doe</h4>
                 <span>UI Designer</span>
-                <ul class="pb-social-icons-list">
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                <ul class="personality-box__social-icons-list">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="pb-social-list-item">
-                    <a class="icon-links" href="#">
-                      <svg class="pb-social-icon" width="44px" height="44px">
+                  <li class="personality-box__social-list-item">
+                    <a class="personality-box__icon-links" href="#">
+                      <svg
+                        class="personality-box__social-icon"
+                        width="44px"
+                        height="44px"
+                      >
                         <use href="./images/icons.svg#icon-linkedin-1"></use>
                       </svg>
                     </a>
@@ -429,44 +505,44 @@
         <div class="container">
           <h2 class="header-secondary">Nasi klienci</h2>
           <ul class="customer-list">
-            <li class="customer-list-item">
-              <a class="customer-icon-links" href="#">
-                <svg class="customer-icon" width="168px" height="92px">
+            <li>
+              <a class="customer-list__link" href="#">
+                <svg class="customer-list__icon" width="168px" height="92px">
                   <use href="./images/icons.svg#icon-Logo-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="customer-list-item">
-              <a class="customer-icon-links" href="#">
-                <svg class="customer-icon" width="168px" height="92px">
+            <li>
+              <a class="customer-list__link" href="#">
+                <svg class="customer-list__icon" width="168px" height="92px">
                   <use href="./images/icons.svg#icon-Logo-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="customer-list-item">
-              <a class="customer-icon-links" href="#">
-                <svg class="customer-icon" width="168px" height="92px">
+            <li>
+              <a class="customer-list__link" href="#">
+                <svg class="customer-list__icon" width="168px" height="92px">
                   <use href="./images/icons.svg#icon-Logo-3"></use>
                 </svg>
               </a>
             </li>
-            <li class="customer-list-item">
-              <a class="customer-icon-links" href="#">
-                <svg class="customer-icon" width="168px" height="92px">
+            <li>
+              <a class="customer-list__link" href="#">
+                <svg class="customer-list__icon" width="168px" height="92px">
                   <use href="./images/icons.svg#icon-Logo-4"></use>
                 </svg>
               </a>
             </li>
-            <li class="customer-list-item">
-              <a class="customer-icon-links" href="#">
-                <svg class="customer-icon" width="168px" height="92px">
+            <li>
+              <a class="customer-list__link" href="#">
+                <svg class="customer-list__icon" width="168px" height="92px">
                   <use href="./images/icons.svg#icon-Logo-5"></use>
                 </svg>
               </a>
             </li>
-            <li class="customer-list-item">
-              <a class="customer-icon-links" href="#">
-                <svg class="customer-icon" width="168px" height="92px">
+            <li>
+              <a class="customer-list__link" href="#">
+                <svg class="customer-list__icon" width="168px" height="92px">
                   <use href="./images/icons.svg#icon-Logo-6"></use>
                 </svg>
               </a>
