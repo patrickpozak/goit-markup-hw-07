@@ -1,2 +1,14 @@
-@use "utils";
-@use "components";
+@import "./utils/variables";
+@import "./utils/base";
+@import "./utils/headers";
+@import "./components/_descriptions";
+@import "./components/_footer-container";
+@import "./components/_grid-portfolio";
+@import "./components/_header-container";
+@import "./components/_logotext";
+@import "./components/_main-section";
+@import "./components/_modal-container";
+@import "./components/_our-clients";
+@import "./components/_photos-container";
+@import "./components/_site-containers";
+@import "./components/_team-section";
