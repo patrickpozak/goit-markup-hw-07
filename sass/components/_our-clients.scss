@@ -11,14 +11,15 @@
     &:hover,
     &:focus {
       border: 1px solid var(--quaternary-color);
-      cursor: $cp;
+      cursor: pointer;
       outline: none;
       transition: $animation;
       transition-property: border;
     }
     svg {
       fill: var(--quaternary-color);
-      cursor: $cp;
+      cursor: pointer;
+      transition-property: fill;
       transition: $animation;
     }
   }

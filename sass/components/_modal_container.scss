@@ -46,7 +46,8 @@
       cursor: pointer;
       outline: none;
       border-color: var(--quaternary-color);
-      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition-property: border-color;
+      transition: $animation;
     }
   }
   &__close-button-icon {
@@ -80,10 +81,12 @@
     }
     &:focus-within {
       border-color: var(--quaternary-color);
-      transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition-property: border;
+      transition: $animation;
       .modal__form-icon {
         fill: var(--quaternary-color);
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: fill;
+        transition: $animation;
       }
     }
   }
@@ -168,5 +171,6 @@ input#check:checked + label > svg {
   border: none;
   background-color: var(--quaternary-color);
   fill: var(--primary-color);
-  transition: fill, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color;
+  transition: $animation;
 }
