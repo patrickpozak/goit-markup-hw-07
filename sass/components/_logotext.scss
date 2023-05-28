@@ -39,11 +39,11 @@
       transition: $animation;
     }
   }
-  &__position-header {
+  &--position-header {
     margin-right: 93px;
     flex-grow: 0;
   }
-  &__position-footer {
+  &--position-footer {
     padding-bottom: 20px;
   }
   &--dark {

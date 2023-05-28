@@ -18,12 +18,12 @@
       outline: none;
       transition: $animation;
       transition-property: border;
-    }
-    svg {
-      fill: var(--quaternary-color);
-      cursor: pointer;
-      transition-property: fill;
-      transition: $animation;
+      svg {
+        fill: var(--quaternary-color);
+        cursor: pointer;
+        transition-property: fill;
+        transition: $animation;
+      }
     }
   }
   &__icon {

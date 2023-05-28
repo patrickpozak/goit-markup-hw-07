@@ -50,11 +50,11 @@
       cursor: pointer;
       transition-property: background-color;
       transition: $animation;
-    }
-    svg {
-      fill: var(--primary-color);
-      transition-property: fill;
-      transition: $animation;
+      svg {
+        fill: var(--primary-color);
+        transition-property: fill;
+        transition: $animation;
+      }
     }
   }
 }

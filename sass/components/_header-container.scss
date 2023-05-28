@@ -15,7 +15,7 @@
   flex-grow: 1;
   align-items: center;
   gap: 46px;
-  .menu-list__m-item {
+  &__m-item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
@@ -38,6 +38,9 @@
 
 .active-site-underline {
   position: relative;
+  .menu-list__m-item {
+    color: var(--text-color-4);
+  }
   &::after {
     content: "";
     position: absolute;
@@ -46,9 +49,6 @@
     border-bottom: 4px solid var(--quaternary-color);
     border-radius: 2px;
     display: flex;
-  }
-  .m-item {
-    color: var(--text-color-4);
   }
 }
 
@@ -86,11 +86,11 @@
       }
     }
   }
-  &__envelope_icon {
+  &__envelope-icon {
     fill: var(--text-color-2);
     margin-right: 10px;
   }
-  &__smartphone_icon {
+  &__smartphone-icon {
     fill: var(--text-color-2);
     margin-right: 10px;
   }

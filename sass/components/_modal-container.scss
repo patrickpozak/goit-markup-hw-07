@@ -85,7 +85,7 @@
       border-color: var(--quaternary-color);
       transition-property: border;
       transition: $animation;
-      .modal__form-icon {
+      .modal-form__icon {
         fill: var(--quaternary-color);
         transition-property: fill;
         transition: $animation;
@@ -166,6 +166,9 @@
     letter-spacing: 0.03em;
     color: var(--text-color-2);
     cursor: pointer;
+  }
+  &__checkbox-link {
+    color: var(--text-color-4);
   }
 }
 
