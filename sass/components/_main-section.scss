@@ -1,3 +1,6 @@
+@use "../utils/variables" as *;
+@use "../utils/base" as *;
+
 .main-section-content {
   display: flex;
   flex-direction: column;

@@ -1,4 +1,6 @@
-/* LOGO */
+@use "../utils/variables" as *;
+@use "../utils/base" as *;
+
 .logotext {
   color: var(--text-color-4);
   text-decoration: none;

@@ -1,3 +1,6 @@
+@use "../utils/variables" as *;
+@use "../utils/base" as *;
+
 .middle-section-content {
   display: flex;
   align-items: center;

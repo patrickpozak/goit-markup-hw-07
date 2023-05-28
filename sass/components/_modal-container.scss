@@ -1,3 +1,5 @@
+@use "../utils/variables" as *;
+@use "../utils/base" as *;
 .backdrop {
   position: fixed;
   left: 0;

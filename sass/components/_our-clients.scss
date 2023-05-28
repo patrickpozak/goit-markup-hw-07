@@ -1,3 +1,6 @@
+@use "../utils/variables" as *;
+@use "../utils/base" as *;
+
 .customer-list {
   list-style: none;
   display: flex;

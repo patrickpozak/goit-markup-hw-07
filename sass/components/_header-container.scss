@@ -1,3 +1,6 @@
+@use "../utils/variables" as *;
+@use "../utils/base" as *;
+
 .header-content {
   display: flex;
   justify-content: flex-start;

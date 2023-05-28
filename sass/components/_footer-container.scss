@@ -1,3 +1,6 @@
+@use "../utils/variables" as *;
+@use "../utils/base" as *;
+
 .footer-content {
   display: flex;
   gap: 70px;
